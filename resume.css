@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+}
+body{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    margin: 50px;
+    padding-left: 0em;
+}
+.container .left-side{
+    position: relative;
+    background: burlywood;
+    padding: 40px;
+}
+.container .right-side{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profile h2{
+    font-size: larger;
+    color: maroon;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 800;
+    line-height: 1.4em;
+}
+.profile h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.info{
+    padding-top: 40px;
+}
+.title{
+    color: maroon;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.info ul{
+    position: relative;
+}
+.info ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.info ul li span{
+    color: maroon;
+    font-weight: 300;
+}
+.info.education li{
+    margin-bottom: 15px;
+}
+.info.education h5{
+    color: maroon;
+    font-weight: 50;
+}
+.info.education h4{
+    color: maroon;
+    font-size:100%;
+    font-weight: 500;
+}
+.about{
+    margin-bottom: 50px;
+    padding-left: 15px;
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+.title2{
+    color: maroon;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about .box .company{
+    min-width: 150px;
+}
+.about .box .company h5{
+    color: black;
+    font-weight: 600;
+}
+.about .box .text h4{
+    color: black;
+    font-size: 20px;
+}
+.skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+   align-items: center;
+}
+.skills .box h4{
+    color: black;
+    font-weight: 500;
+}
+.certifications{
+    padding-top: 35px;
+}
+.internship{
+    padding-top: 50px;
+}
+
+
+
